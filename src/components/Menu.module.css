@@ -1,0 +1,22 @@
+.menu {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 2rem;
+    height: 4rem;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu button {
+    background: transparent;
+    border: 0;
+    color: var(--gray-400);
+    cursor: pointer;
+    line-height: 0;
+    border-radius: 2px;
+}

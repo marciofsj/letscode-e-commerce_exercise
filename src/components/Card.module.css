@@ -1,0 +1,53 @@
+.card {
+    background: var(--color-1);
+    width: 18rem;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    border-radius: 8px;
+    margin-left: 1rem;
+}
+
+.card img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 8px;
+}
+
+.cardInfos {
+    margin-top: 0.5rem;
+}
+
+.cardButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+
+.card a {
+    color: var(--color-1);
+    border-radius: 8px;
+    height: 4rem;
+    width: 4rem;
+    border: 0;
+    background: var(--color-3);
+    cursor: pointer;
+    text-decoration: none;
+    padding-top: 1rem;
+}
+
+.card a:hover {
+    opacity: 80%;
+    transition: 0.2s;
+    border: solid var(--color-2);
+}
+
+a.buttonContent {
+    width: 10rem;
+}
+
+.card strong {
+    font-size: 1.3rem;
+}

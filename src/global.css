@@ -1,0 +1,32 @@
+:root {
+    --color-1: #ebebe6;
+    --color-2: #333;
+    --color-3: #9e0b0f;
+    --color-4: #ea3601;
+    --color-5: #ff6000;
+    --color-6: #b3b1ad;
+    --color-7: #4c7de3;
+}
+
+:focus {
+    outline: transparent;
+    box-shadow: 0 0 0 1px var(--color-3);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--color-6);
+    color: var(--color-2);
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}

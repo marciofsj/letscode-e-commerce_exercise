@@ -1,0 +1,18 @@
+.productIcons {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.iconCard {
+    border: solid gray;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 2rem;
+    width: 8rem;
+}
+
+.iconCard p {
+    margin: 0;
+   
+}
