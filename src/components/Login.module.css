@@ -1,0 +1,65 @@
+.loginPage {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 1rem;
+}
+
+form {
+    background: var(--color-1);
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-left: 1rem;
+    box-shadow: 1px 1px 10px var(--color-2); 
+}
+
+input {
+    border-radius: 8px;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+.loginPage form {
+    display: grid;
+}
+
+h2 {
+    text-align: center;
+}
+
+.registerSide .checkBox {
+    display: flex;
+    align-items: center;
+}
+
+.registerSide .checkBox p {
+    font-size: 0.8rem;
+}
+
+button {
+    color: var(--color-1);
+    border-radius: 8px;
+    height: 4rem;
+    border: 0;
+    background: var(--color-3);
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 -2px 15px var(--color-6);
+    text-shadow: 1px 1px 2px var(--color-2);
+    margin: 1rem;
+}
+
+button:hover {
+    opacity: 80%;
+    transition: 0.2s;
+    border: solid var(--color-2);
+}
+
+.loginSide a{
+    color: var(--color-2);
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+

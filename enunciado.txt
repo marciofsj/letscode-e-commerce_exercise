@@ -5,5 +5,5 @@ Utilize ReactJs para o front, modele o banco de dados do sistema e desenvolva o 
 Desenvolva uma página principal com listagem de produtos;✔️
 Desenvolva uma página com detalhes do produto com a opção de comprar;✔️
 Crie a função de carrinho de compras, salvando os produtos selecionados no localStorage;
-Desenvolva o cadastro e login de usuário;
+Desenvolva o cadastro e login de usuário; ✔️
 Desenvolva a tela de finalização da compra;
