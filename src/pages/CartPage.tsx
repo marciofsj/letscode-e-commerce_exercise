@@ -1,4 +1,4 @@
-export function Cart(){
+export function CartPage(){
     return(
         <div>
             <h1>Carrinho</h1>

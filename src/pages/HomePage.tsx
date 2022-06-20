@@ -1,7 +1,7 @@
 import { Body } from "../components/Body";
 
 
-export function Home(){
+export function HomePage(){
     return(
         <div>
             <Body/>

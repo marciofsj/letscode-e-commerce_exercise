@@ -5,6 +5,7 @@
     margin: 0 10rem 2rem;
     gap: 4rem;
     padding: 0.5rem;
+    box-shadow: 1px 1px 10px var(--color-2);
 }
 
 .productDetails h3{
@@ -24,10 +25,12 @@
 .productContent img {
     height: 25rem;
     border-radius: 8px;
+    box-shadow: 0 -2px 15px var(--color-6);
 }
 
 .cartbuttom {
     margin-top: 2.5rem;
+    
 }
 
 .cartbuttom a {
@@ -38,6 +41,7 @@
     text-decoration: none;
     padding: 1rem;
     font-size: 2rem;
+    text-shadow: 1.5px 1.5px 3px var(--color-2);
 }
 
 .cartbuttom a:hover {

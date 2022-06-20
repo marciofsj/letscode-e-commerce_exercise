@@ -1,6 +1,6 @@
 import { ProductContent } from "../components/ProductContent";
 
-export function Product(){
+export function ProductPage(){
     return(
         <div>
             <ProductContent/>
