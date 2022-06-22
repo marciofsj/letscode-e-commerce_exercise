@@ -13,9 +13,16 @@ export function Login() {
     const [repeatpassword, setRepetNewPassword] = useState ('');
     
 
-    const handleEnter = () => {
+    const handleLogin = () => {
         console.log(email)
         console.log(password)
+    }
+
+    const handleRegister = () => {
+        console.log(newname)
+        console.log(newemail)
+        console.log(newpassword)
+        console.log(repeatpassword)
     }
 
     return (
@@ -39,7 +46,7 @@ export function Login() {
                         onChange={e => setPassword(e.target.value)}  
                     />
                     <a href="#">Esqueceu sua senha? Clique aqui!</a>
-                    <button type="button" onClick={handleEnter}>Acessar</button>
+                    <button type="button" onClick={handleLogin}>Acessar</button>
                 </form>
             </div>
 
@@ -83,7 +90,7 @@ export function Login() {
                         <input type="checkbox" name="Check" id=""/>
                         <p>Quero receber promoções por e-mail.</p>
                     </div>
-                    <button type="button">Acessar</button>
+                    <button type="button" onClick={handleRegister}>Acessar</button>
                 </form>
             </div>
         </div>

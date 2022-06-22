@@ -1,0 +1,61 @@
+.footer {
+    background: var(--color-1);
+    margin-top: 6rem ;
+    padding: 1rem;
+
+}
+
+.footer a, p {
+    color: var(--color-2);
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+
+.footer ul {
+    margin-top: 0.5rem;
+}
+
+.footer li {
+    list-style-type: none;
+}
+
+.footer img {
+    height: 10rem;
+    margin-top: 1rem;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.addres {
+    text-align: center;
+}
+
+.midia {
+    margin-top: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.facebook :hover {
+    color: #3B5998;
+}
+
+.instagram :hover {
+    color: #DD2A7B;
+}
+
+.linkedin :hover {
+    color: #0E76A8;
+}
+
+.twitter :hover {
+    color: #00ACEE;
+}
+
+.youtube :hover {
+    color: #FF0000;
+}
