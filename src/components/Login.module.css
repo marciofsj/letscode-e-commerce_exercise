@@ -1,5 +1,6 @@
 .loginPage {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 4rem;
     margin-bottom: 1rem;

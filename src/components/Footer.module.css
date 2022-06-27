@@ -2,7 +2,6 @@
     background: var(--color-1);
     margin-top: 6rem ;
     padding: 1rem;
-
 }
 
 .footer a, p {
@@ -26,7 +25,9 @@
 
 .info {
     display: flex;
-    justify-content: space-between;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 4rem;
     margin: 2rem;
 }
 

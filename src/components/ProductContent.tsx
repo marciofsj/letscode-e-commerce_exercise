@@ -16,7 +16,6 @@ export function ProductContent() {
 
                 <div className={styles.cartbuttom}> 
                     <Link to='/cart'>     
-                        
                         <strong><ShoppingCart size={30} weight="bold"/> Comprar Agora</strong>
                     </Link>
                 </div>
